@@ -6,7 +6,7 @@ backend-path = ["pep517backend"]
 [project]
 name = "PyGObject-gst-stubs"
 version = "0.0.1"
-description = "Typing stubs for PyGObject forked from "
+description = "Typing stubs for PyGObject with Gst and GstRtspServer"
 readme = "README.md"
 requires-python = ">=3.12"
 license = {text = "LGPL-2.1"}

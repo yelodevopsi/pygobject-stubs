@@ -2,7 +2,7 @@ style: gitlab
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/pygobject/pygobject-stubs
+  repository_url: https://github.com/yelodevopsi/pygobject-gst-stubs
 options:
   commits:
     filters:
