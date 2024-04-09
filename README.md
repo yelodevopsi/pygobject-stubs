@@ -1,10 +1,10 @@
 # Typing Stubs for PyGObject
 
-[![PyPI](https://img.shields.io/pypi/v/pygobject-stubs)](https://pypi.org/project/PyGObject-stubs)
+[![PyPI](https://img.shields.io/pypi/v/pygobject-gst-stubs)](https://pypi.org/project/PyGObject-gst-stubs)
 
 ## Installation
 ```
-$ pip install pygobject-stubs
+$ pip install pygobject-gst-stubs
 ```
 
 ### Configuration
@@ -15,11 +15,11 @@ currently imported under the namespace `Gtk` only stubs for one can be installed
 You need to decide this at install time either by using the `--config-settings` option
 with pip
 
-    $ pip install pygobject-stubs --no-cache-dir --config-settings=config=Gtk3,Gdk3,Soup2
+    $ pip install pygobject-gst-stubs --no-cache-dir --config-settings=config=Gtk3,Gdk3,Soup2
 
 or by setting the `PYGOBJECT_STUB_CONFIG` env variable
 
-    $ PYGOBJECT_STUB_CONFIG=Gtk3,Gdk3,Soup2 pip install --no-cache-dir pygobject-stubs
+    $ PYGOBJECT_STUB_CONFIG=Gtk3,Gdk3,Soup2 pip install --no-cache-dir pygobject-gst-stubs
 
 If no configuration is set, the most recent version of each library is installed.
 
