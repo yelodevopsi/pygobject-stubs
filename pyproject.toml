@@ -4,15 +4,15 @@ build-backend = "backend"
 backend-path = ["pep517backend"]
 
 [project]
-name = "PyGObject-stubs"
-version = "2.11.0"
-description = "Typing stubs for PyGObject"
+name = "PyGObject-gst-stubs"
+version = "0.0.1"
+description = "Typing stubs for PyGObject forked from "
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.12"
 license = {text = "LGPL-2.1"}
 authors = [
-  {email = "reiter.christoph@gmail.com"},
-  {name = "Christoph Reiter"}
+  {email = "magnus.gule@gmail.com"},
+  {name = "Magnus Gule"}
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -32,8 +32,8 @@ dev = [
 ]
 
 [project.urls]
-homepage = "https://github.com/pygobject/pygobject-stubs"
-repository = "https://github.com/pygobject/pygobject-stubs"
+homepage = "https://github.com/yelodevopsi/pygobject-stubs"
+repository = "https://github.com/yelodevopsi/pygobject-stubs"
 
 [tool.setuptools.packages.find]
 where = ["src"]
